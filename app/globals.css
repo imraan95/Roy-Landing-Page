@@ -58,12 +58,12 @@ h1, h2, h3 { margin: 0; font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sa
   h1 { margin-top: 20px; max-width: 640px; font-size: clamp(3.3rem, 6vw, 5.35rem); line-height: .98; }
   h1 em { display: inline-block; color: var(--background); background: var(--green); font-style: normal; padding: 0 .14em .05em; }
 .hero-sub { max-width: 570px; margin: 26px 0 30px; color: var(--muted-foreground); font-size: 17px; line-height: 1.65; }
-.signup-form { position: relative; display: flex; align-items: stretch; gap: 8px; max-width: 510px; }
+.signup-form { position: relative; display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; max-width: 510px; }
 .signup-form input { min-width: 0; flex: 1; border: 1px solid var(--line); border-radius: 5px; background: #fff; color: var(--foreground); padding: 13px 15px; outline: none; font-size: 14px; }
 .signup-form input:focus { border-color: var(--green); box-shadow: 0 0 0 2px #2c755622; }
 .form-note { margin-top: 12px; color: var(--muted-foreground); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
-.form-success { position: absolute; left: 0; top: calc(100% + 11px); display: inline-flex; align-items: center; gap: 5px; color: var(--green); font-size: 12px; }
-.form-error { position: absolute; left: 0; top: calc(100% + 11px); display: inline-flex; align-items: center; gap: 5px; color: #b3261e; font-size: 12px; }
+.form-success { display: inline-flex; align-items: center; gap: 5px; width: 100%; margin-top: 4px; color: var(--green); font-size: 12px; }
+.form-error { display: inline-flex; align-items: center; gap: 5px; width: 100%; margin-top: 4px; color: #b3261e; font-size: 12px; }
 
 .hero-demo { border: 1px solid var(--line); background: #fff; padding: 19px; box-shadow: 12px 12px 0 var(--muted); }
 .demo-top, .demo-bottom { display: flex; align-items: center; gap: 8px; color: var(--muted-foreground); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10px; letter-spacing: .06em; }
