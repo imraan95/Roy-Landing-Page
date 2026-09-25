@@ -35,6 +35,7 @@ const faqs = [
   ['What is Roy?', 'Roy is a shared memory harness for your team and the AI tools you use. He turns conversations into context you can actually find and trust.'],
   ['Where does Roy get his memory?', 'Roy reads the transcripts and notes already created in your existing tools, quietly compounding every meeting into memory.'],
   ['I don’t want a tool tracking everything I say.', 'Roy tracks only what you want him to track, in the structure you want him to track. Nothing leaves your workspace. Every answer comes with its source, and is never guessed.'],
+  ['Does my team see what Roy remembers for me?', 'Not by default. Roy starts as your own memory, personal to you. You choose what to deploy from your personal Roy into a shared team harness, so context can outlive any one person without exposing everything you say.'],
   ['When can I try it?', 'We are rolling out early access in small batches. Join the waitlist and we will keep you posted.'],
 ]
 
